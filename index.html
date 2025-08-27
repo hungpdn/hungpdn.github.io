@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>♐ Hung Pham</title>
-  <style>
-    h1 {
-      font-family: arial;
-      font-size: 70px;
-      font-weight: bold;
-    }
-
-    body {
-      background-color: lightblue;
-    }
-
-    .center-screen {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      min-height: 100vh;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hung Pham</title>
+  <link rel="icon" href="avatar.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1 class="center-screen">
-    "I am Hung"
-  </h1>
+  <div class="container">
+    <div class="avatar">
+      <img src="avatar.jpg" alt="Hung Pham">
+    </div>
+    <h1>Hi, my name is <span>Hung Pham</span></h1>
+    <div class="typing" id="typing"></div>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/hungpdn" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/hungpdn" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+  <script src="typing.js"></script>
 </body>
 
 </html>

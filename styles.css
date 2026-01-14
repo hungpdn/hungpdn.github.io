@@ -136,8 +136,8 @@ body::after {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgba(247, 248, 250, 0.907);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(121, 131, 152, 0.282);
+  border: 1px solid rgba(243, 188, 188, 0.1);
   color: #ffffff;
   font-size: 1.5rem;
   text-decoration: none;
@@ -147,7 +147,7 @@ body::after {
 
 .social a:hover {
   background: #65c4f0;
-  color: #ececf6;
+  color: #f0f0f5f2;
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(80, 195, 236, 0.4);
 }
